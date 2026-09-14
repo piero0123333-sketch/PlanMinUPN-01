@@ -1,0 +1,2 @@
+# Agregar dependencias solamente cuando exista una necesidad real del proyecto.
+# Evitar instalar librerías por conveniencia antes de definir el problema.

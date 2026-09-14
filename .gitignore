@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE local state
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated outputs can be versioned selectively.
+# Do not ignore data/raw globally: source datasets may be distributed by the docente.
