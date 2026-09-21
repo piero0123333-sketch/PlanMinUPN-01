@@ -1,0 +1,55 @@
+file,column,description,unit,dtype,nullable
+collar.csv,hole_id,Stable drillhole identifier,,string,false
+collar.csv,dataset_id,Teaching dataset identifier,,string,false
+collar.csv,project_id,Stable project identifier,,string,false
+collar.csv,campaign_id,Exploration campaign identifier,,string,false
+collar.csv,x,Collar local Cartesian X coordinate,m,float,false
+collar.csv,y,Collar local Cartesian Y coordinate,m,float,false
+collar.csv,z,Collar local Cartesian elevation,m,float,false
+collar.csv,azimuth_deg,Drillhole azimuth,degree,float,false
+collar.csv,dip_deg,Drillhole dip,degree,float,false
+collar.csv,final_depth_m,Final measured drillhole depth,m,float,false
+survey.csv,hole_id,Stable drillhole identifier,,string,false
+survey.csv,dataset_id,Teaching dataset identifier,,string,false
+survey.csv,project_id,Stable project identifier,,string,false
+survey.csv,campaign_id,Exploration campaign identifier,,string,false
+survey.csv,depth_m,Survey measured depth,m,float,false
+survey.csv,azimuth_deg,Drillhole azimuth,degree,float,false
+survey.csv,dip_deg,Drillhole dip,degree,float,false
+lithology.csv,hole_id,Stable drillhole identifier,,string,false
+lithology.csv,dataset_id,Teaching dataset identifier,,string,false
+lithology.csv,project_id,Stable project identifier,,string,false
+lithology.csv,campaign_id,Exploration campaign identifier,,string,false
+lithology.csv,from_m,Interval start measured depth,m,float,false
+lithology.csv,to_m,Interval end measured depth,m,float,false
+lithology.csv,length_m,Interval length,m,float,false
+lithology.csv,lith_code,Observed lithology code,,string,false
+alteration.csv,hole_id,Stable drillhole identifier,,string,false
+alteration.csv,dataset_id,Teaching dataset identifier,,string,false
+alteration.csv,project_id,Stable project identifier,,string,false
+alteration.csv,campaign_id,Exploration campaign identifier,,string,false
+alteration.csv,from_m,Interval start measured depth,m,float,false
+alteration.csv,to_m,Interval end measured depth,m,float,false
+alteration.csv,length_m,Interval length,m,float,false
+alteration.csv,alteration_code,Observed alteration code when available,,string,false
+alteration.csv,alteration_intensity,Observed alteration intensity when available,,string,false
+assay.csv,sample_id,Stable assay sample identifier,,string,false
+assay.csv,hole_id,Stable drillhole identifier,,string,false
+assay.csv,dataset_id,Teaching dataset identifier,,string,false
+assay.csv,project_id,Stable project identifier,,string,false
+assay.csv,campaign_id,Exploration campaign identifier,,string,false
+assay.csv,from_m,Interval start measured depth,m,float,false
+assay.csv,to_m,Interval end measured depth,m,float,false
+assay.csv,length_m,Interval length,m,float,false
+assay.csv,cu_pct,Observed copper assay,percent,float,false
+assay.csv,mo_pct,Observed molybdenum assay,percent,float,false
+assay.csv,au_gt,Observed gold assay,g/t,float,false
+density.csv,density_sample_id,Stable density sample identifier,,string,false
+density.csv,hole_id,Stable drillhole identifier,,string,false
+density.csv,dataset_id,Teaching dataset identifier,,string,false
+density.csv,project_id,Stable project identifier,,string,false
+density.csv,campaign_id,Exploration campaign identifier,,string,false
+density.csv,from_m,Interval start measured depth,m,float,false
+density.csv,to_m,Interval end measured depth,m,float,false
+density.csv,length_m,Interval length,m,float,false
+density.csv,density_t_m3,Observed density,t/m3,float,false

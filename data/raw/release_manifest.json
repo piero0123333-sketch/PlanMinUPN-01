@@ -1,0 +1,43 @@
+{
+  "audience_role": "student_project",
+  "campaigns": [
+    "C01",
+    "C02",
+    "C03"
+  ],
+  "canonical_full_exploration_release": true,
+  "dataset_id": "DS01",
+  "file_sha256": {
+    "README.md": "9e314077ebc9c027138b4a1705dfdaef208dbd28255ffe22c021ecc8e837f84a",
+    "alteration.csv": "f694c0bbd6cb51cfd815b969269b593974d5c199142b24ebb4d4f007e85acb21",
+    "assay.csv": "fe5a409ebd481a0b6bd867d3437e52e0eef5f6269e4fc5fd9577bb2434b4bd6c",
+    "collar.csv": "7aac93d2b2aebd28774c4e663280b71b9b12f51b5864b9bb50a2a310e64ae9a4",
+    "data_dictionary.csv": "a064bd18a482f6868f1f257ce839940792e37d2338f00858214b742235cb2ff3",
+    "density.csv": "b00d7bcb118147fafe87a4f478b0605ab836a6a821116a65558e3a5477f0842a",
+    "lithology.csv": "8463f6511525932c3f756ba8604bd59fbaf53c96f705bb4b99aebcfd34df7ab9",
+    "survey.csv": "b6d3fa457b06128a649502a1700e08141b549961e160d5edc7cf5ea66c857487"
+  },
+  "files": [
+    "collar.csv",
+    "survey.csv",
+    "lithology.csv",
+    "alteration.csv",
+    "assay.csv",
+    "density.csv",
+    "README.md",
+    "data_dictionary.csv"
+  ],
+  "n_alteration_intervals": 0,
+  "n_assays": 3619,
+  "n_density_samples": 290,
+  "n_holes": 32,
+  "n_lithology_intervals": 95,
+  "n_surveys": 208,
+  "project_id": "cerro_azul",
+  "project_name": "Cerro Azul",
+  "release_id": "EXP03",
+  "release_type": "exploration",
+  "resource_or_reserve_statement": false,
+  "schema_version": "1.0",
+  "synthetic_data": true
+}
