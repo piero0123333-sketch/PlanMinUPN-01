@@ -1,0 +1,11 @@
+internal_field,datamine_field,source_table,description
+hole_id,HOLEID,collar/survey/assay_xyz,Drillhole identifier
+x,X,collar,Local Easting collar coordinate (m)
+y,Y,collar,Local Northing collar coordinate (m)
+z,Z,collar,Local elevation collar coordinate (m)
+depth_m,DEPTH,survey,Measured depth (m)
+x_mid,X_MID,assay_xyz,Local Easting interval midpoint (m)
+y_mid,Y_MID,assay_xyz,Local Northing interval midpoint (m)
+z_mid,Z_MID,assay_xyz,Local elevation interval midpoint (m)
+density_sample_id,density_sample_id,density,Density sample identifier
+density_t_m3,density_t_m3,density,Observed density (t/m3)
