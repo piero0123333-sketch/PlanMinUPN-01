@@ -23,3 +23,8 @@ Thumbs.db
 
 # Generated outputs can be versioned selectively.
 # Do not ignore data/raw globally: source datasets may be distributed by the docente.
+
+# Kai individual local IMP-008 teoría
+.kai_local/
+/.kai_solicitud_recorrido_academico.json
+/.kai_solicitud_teoria_v2.json

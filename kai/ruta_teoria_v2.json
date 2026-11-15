@@ -1,0 +1,105 @@
+{
+  "route_id": "KAI-G01-TEORIA",
+  "route_version": 2,
+  "alcance": "TEORIA_CON_EJEMPLOS_ACADEMICOS",
+  "grupo": "G01",
+  "sin_equivalencia_automatica_v1": true,
+  "actividades": [
+    {
+      "id": "E1.01",
+      "etapa": "E1",
+      "titulo": "Exploración y proceso completo",
+      "explicacion": "«Una campaña de exploración observa el terreno y obtiene muestras del subsuelo. Después describimos esas muestras, analizamos su contenido y ubicamos la información en el espacio. Con esos datos construimos una representación del yacimiento que ayuda a decidir qué conocemos y qué debemos investigar antes de evaluarlo y planificar una mina».",
+      "pregunta": "Si una muestra aislada tiene Cu alto, ¿aprobarías por ella sola un modelo de todo el depósito y por qué?",
+      "criterio": "reconoce que una observación localizada necesita relacionarse con más información para representar el depósito. No hace falta enumerar todas las fases profesionales.",
+      "pista": "Refuerza solo la idea pendiente con un ejemplo sencillo, sin adelantar la conclusión.",
+      "recurso": "docs/learning/GUIA_KAI_COMPARTIDA.md",
+      "fuente": "docs/learning/GUIA_KAI_COMPARTIDA.md",
+      "evaluar": "razonamiento propio; una pregunta por turno; sin nota oficial"
+    },
+    {
+      "id": "E1.02",
+      "etapa": "E1",
+      "titulo": "Logueo geológico",
+      "explicacion": "«Loguear es describir ordenadamente lo que vemos en los testigos o muestras y dónde aparece: tipos de roca, cambios, alteración, mineralización y rasgos como fracturas cuando corresponda. El laboratorio indica contenidos analizados; la descripción geológica ayuda a entender en qué roca y contexto aparecen».",
+      "pregunta": "Si dos tramos tienen Cu parecido pero litologías diferentes, ¿los tratarías como una sola zona sin revisar su descripción y por qué?",
+      "criterio": "usa la descripción para justificar revisar la interpretación antes de unir los tramos. No tiene que memorizar nombres de minerales.",
+      "pista": "Pensar si una ley similar demuestra por sí sola que ambos tramos pertenecen a la misma unidad geológica.",
+      "recurso": "docs/learning/GUIA_KAI_COMPARTIDA.md",
+      "fuente": "docs/learning/GUIA_KAI_COMPARTIDA.md",
+      "evaluar": "razonamiento propio; una pregunta por turno; sin nota oficial"
+    },
+    {
+      "id": "E1.03",
+      "etapa": "E1",
+      "titulo": "Collar",
+      "explicacion": "«Collar identifica cada sondaje y fija su punto de inicio con coordenadas X, Y y Z. Es el anclaje desde el que ubicamos sus observaciones; debe relacionarse de forma coherente con los demás registros del sondaje».",
+      "pregunta": "Si la coordenada del collar de un sondaje no coincide con el plano del proyecto, ¿usarías esa ubicación para interpretar el depósito y por qué?",
+      "criterio": "detecta que debe revisar la ubicación o identificación antes de interpretar relaciones espaciales. No se pregunta cómo escribir columnas ni un sistema de coordenadas de memoria.",
+      "pista": "Invitar a imaginar dónde aparecerían las muestras al dibujarlas con ese inicio.",
+      "recurso": "docs/learning/GUIA_KAI_COMPARTIDA.md",
+      "fuente": "docs/learning/GUIA_KAI_COMPARTIDA.md",
+      "evaluar": "razonamiento propio; una pregunta por turno; sin nota oficial"
+    },
+    {
+      "id": "E1.04",
+      "etapa": "E1",
+      "titulo": "Survey y trayectoria",
+      "explicacion": "«Survey registra la orientación del sondaje a distintas profundidades, mediante azimut e inclinación. La trayectoria permite pasar de una profundidad medida a lo largo del sondaje a la posición espacial del tramo observado».",
+      "pregunta": "Si un sondaje cambia de orientación con la profundidad, ¿ubicarías todas sus muestras en el mismo punto y por qué?",
+      "criterio": "explica que dirección e inclinación cambian la posición final. Basta una razón espacial sencilla.",
+      "pista": "Dibujar dos líneas con distinta dirección desde un mismo inicio, sin pedir cálculos de desurvey.",
+      "recurso": "docs/learning/GUIA_KAI_COMPARTIDA.md",
+      "fuente": "docs/learning/GUIA_KAI_COMPARTIDA.md",
+      "evaluar": "razonamiento propio; una pregunta por turno; sin nota oficial"
+    },
+    {
+      "id": "E1.05",
+      "etapa": "E1",
+      "titulo": "Assay y relación entre los tres archivos",
+      "explicacion": "«Assay contiene análisis de laboratorio asociados a intervalos de muestra. Cada ley debe conservar su unidad y su vínculo con el sondaje y el tramo: collar ubica el inicio, survey describe el recorrido y assay aporta el contenido analizado».",
+      "pregunta": "Si recibes una ley de Cu sin identificador de sondaje o intervalo, ¿la usarías para interpretar dónde está el cobre y por qué?",
+      "criterio": "entiende que una cifra sin ubicación y vínculo confiable no sustenta una interpretación espacial. La evidencia acumulada en collar y survey completa la relación; no se repiten las tres definiciones como examen.",
+      "pista": "Comparar una muestra identificada con otra cuyo lugar se desconoce.",
+      "recurso": "docs/learning/GUIA_KAI_COMPARTIDA.md",
+      "fuente": "docs/learning/GUIA_KAI_COMPARTIDA.md",
+      "evaluar": "razonamiento propio; una pregunta por turno; sin nota oficial"
+    },
+    {
+      "id": "E1.06",
+      "etapa": "E1",
+      "titulo": "Compositación",
+      "explicacion": "«Las muestras originales pueden tener longitudes distintas por cómo se muestreó y por los cambios encontrados. Compositar resume intervalos en un soporte de longitud más regular para compararlos. Agrupar cambia el detalle que conservamos: no crea nuevas mediciones ni obliga a atravesar contactos para completar una longitud».",
+      "pregunta": "¿Qué cambiaría si elegimos compositados de 10 metros en lugar de 2 metros?",
+      "criterio": "relaciona un tramo mayor con menor detalle local y posible suavización de variaciones cortas, y comprende que la elección depende del depósito y del propósito. No se exige afirmar que una longitud siempre es mejor.",
+      "pista": "Mostrar un pico corto junto a tramos de menor ley, sin explicar previamente el resultado de agruparlo.",
+      "recurso": "docs/learning/GUIA_KAI_COMPARTIDA.md",
+      "fuente": "docs/learning/GUIA_KAI_COMPARTIDA.md",
+      "evaluar": "razonamiento propio; una pregunta por turno; sin nota oficial"
+    },
+    {
+      "id": "E1.07",
+      "etapa": "E1",
+      "titulo": "Geometría del bloque",
+      "explicacion": "«Un bloque es una celda con volumen que organiza la representación del subsuelo. Sus dimensiones se relacionan con los datos disponibles, la forma del depósito y el detalle útil para el modelo. Una malla más fina puede representar límites con más detalle, pero cada propiedad sigue necesitando información que la respalde».",
+      "pregunta": "Si subdivides cada bloque en celdas más pequeñas sin agregar muestras, ¿qué podrías afirmar sobre la confianza de sus leyes y por qué?",
+      "criterio": "distingue detalle geométrico de respaldo de estimación; no supone que más celdas generan automáticamente más precisión.",
+      "pista": "Mostrar la misma ubicación de muestras sobre dos mallas y pedir observar qué información nueva se obtuvo.",
+      "recurso": "docs/learning/GUIA_KAI_COMPARTIDA.md",
+      "fuente": "docs/learning/GUIA_KAI_COMPARTIDA.md",
+      "evaluar": "razonamiento propio; una pregunta por turno; sin nota oficial"
+    },
+    {
+      "id": "E1.08",
+      "etapa": "E1",
+      "titulo": "Modelo preliminar y cierre",
+      "explicacion": "Un modelo geológico preliminar organiza geometría y observaciones según su soporte. En este grupo, su existencia y estado se comprueban en los productos M01 propios; todavía no se dispone de una corrida S11/S12 verificada bajo IMP-008.",
+      "pregunta": "Si alguien propone decidir la extracción solo con un modelo geológico preliminar, ¿qué le dirías y por qué?",
+      "criterio": "reconoce su utilidad inicial y explica una razón suficiente por la que faltan propiedades respaldadas y evaluación para decidir extracción. No se exige recitar todas las limitaciones ni diseñar todavía un método de estimación.",
+      "pista": "Ayudar a separar la forma o categoría que muestra el visor de la información que necesitaría esa decisión. Si ya aportó una razón válida, cerrar sin otra comprobación automática.",
+      "recurso": "docs/learning/GUIA_KAI_COMPARTIDA.md",
+      "fuente": "docs/learning/GUIA_KAI_COMPARTIDA.md",
+      "evaluar": "razonamiento propio; una pregunta por turno; sin nota oficial"
+    }
+  ]
+}
